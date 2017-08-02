@@ -1,0 +1,11 @@
+# Install deps
+
+bundle install --path vendor/bundle
+
+# Serve
+
+bundle exec jekyll serve
+
+# Template reference
+
+https://github.com/MvvmCross/MvvmCross
