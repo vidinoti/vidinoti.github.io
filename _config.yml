@@ -63,4 +63,5 @@ collections:
 
 category_order:
   - 'Getting-started'
+  - 'Pixlive-maker'
   - 'Sdk'
