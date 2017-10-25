@@ -532,6 +532,11 @@ table tr td :last-child {
 
 .documentation-content {
     clear: both;
+
+    strong {
+        color: #2f3437;
+        font-family: "Open Sans";
+    }
 }
 
 //syntax highlighting
