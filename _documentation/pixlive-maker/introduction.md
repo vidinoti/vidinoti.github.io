@@ -1,12 +1,12 @@
 ---
 layout: documentation
 title: Introduction
-category: Pixlive-maker
+category: V-director
 order: 1
 ---
 
-[![PixLiveMaker]({{ site.url }}/img/pixlivemaker.png)](https://armanager.vidinoti.com)
+[![VDirector]({{ site.url }}/img/vdirector-logo-black.png)](https://armanager.vidinoti.com)
 
-This section describes some of the functionality of the PixLive Maker platform. PixLive Maker is the CMS used together with the SDK.
+This section describes some of the functionality of the V-Director platform. V-Director is the CMS used together with the SDK. It was previously called PixLive Maker.
 
-Access [PixLive Maker](https://armanager.vidinoti.com) now!
+Access [V-Director](https://armanager.vidinoti.com) now!

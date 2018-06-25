@@ -61,6 +61,12 @@ h2,h3,h4,h5,h6 {
     color: $brand-color;
 }
 
+.post-content h1 {
+    color: $brand-color;
+    font-size: 32px;
+    font-weight: 600;
+}
+
 .page-content {
     padding-top: 1%;
     padding-bottom: 0;
@@ -295,14 +301,6 @@ h2,h3,h4,h5,h6 {
     padding: $content-padding;
 }
 
-// @media screen and (max-width: $effective-content-width) {
-//     .documentation
-//     {
-//         float: right;
-//         width: 100%;
-//     }
-// }
-
 a:visited {
     color: $brand-color;
 }
@@ -536,6 +534,11 @@ table tr td :last-child {
     strong {
         color: #2f3437;
         font-family: "Open Sans";
+    }
+
+    h1 {
+        color: $brand-color;
+        font-weight: 600;
     }
 }
 

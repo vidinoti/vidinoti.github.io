@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: 3D content
-category: Pixlive-maker
+category: V-director
 order: 2
 ---
 

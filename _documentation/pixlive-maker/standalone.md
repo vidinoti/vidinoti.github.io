@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Standalone content
-category: Pixlive-maker
+category: V-director
 order: 2
 ---
 
@@ -26,7 +26,7 @@ The standalone mode embeds all the assets of the content from the beginning and 
 
 ## How to select the mode
 
-1) Connect to [PixLive Maker](https://armanager.vidinoti.com)
+1) Connect to [V-Director](https://armanager.vidinoti.com)
 
 2) Open the content (e.g. click the name of the content from the "Content list")
 

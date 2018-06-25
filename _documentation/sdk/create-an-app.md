@@ -5,21 +5,21 @@ category: Sdk
 order: 1
 ---
 
-This page describes the fundamentals for using the PixLive SDK. For using the SDK, you will need a license key and your application must be registered on PixLive Maker. We describe these steps here.
+This page describes the fundamentals for using the Vidinoti SDK. For using the SDK, you will need a license key and your application must be registered on V-Director. We describe these steps here.
 
-## 1) Create a PixLive Maker account
+## 1) Create a V-Director account
 
-If you don't already have a PixLive Maker account, you need to create one [here](https://armanager.vidinoti.com).
+If you don't already have a V-Director account, you need to create one [here](https://armanager.vidinoti.com).
 
 ## 2) Retrieve your license key
 
-Login to PixLive Maker and open the section "PixLive SDK" > "My Licenses". Write down the license key. You will need to integrate this license key in your application source code.
+Login to V-Director and open the section "SDK" > "My Licenses". Write down the license key. You will need to integrate this license key in your application source code.
 
 ![My licenses]({{ site.url }}/img/cms/sdk-licenses.png)
 
-## 3) Register your application(s) in PixLive Maker
+## 3) Register your application(s) in V-Director
 
-Additionnaly to using a license key, you need to register your application in PixLive Maker. If you don't do it, the SDK won't be able to connect to the server (like if the license key is incorrect). In PixLive Maker, open the section "PixLive SDK" > "My Applications".
+Additionnaly to using a license key, you need to register your application in V-Director. If you don't do it, the SDK won't be able to connect to the server (like if the license key is incorrect). In V-Director, open the section "SDK" > "My Applications".
 
 ![My applications]({{ site.url }}/img/cms/sdk-applications.png)
 
@@ -36,7 +36,7 @@ Select the correct platform (either iOS or Android).
 
 ## 4) Download the SDK
 
-Open the section "PixLive SDK" > "Downloads" and download the required SDK.
+Open the section "SDK" > "Downloads" and download the required SDK.
 
 ![SDK downloads]({{ site.url }}/img/cms/sdk-downloads.png)
 
