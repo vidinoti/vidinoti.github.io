@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: 3D content
+title: Editor - 3D content
 category: V-director
 order: 2
 ---
