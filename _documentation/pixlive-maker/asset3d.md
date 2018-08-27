@@ -6,6 +6,8 @@ order: 4
 permalink: /documentation/asset3d
 ---
 
+This page describes how to create 3D models for Android and iOS. The steps described here will be automated in the V-Director platform soon.
+
 # How to create a "Apple Scenekit compatible" file
 
 If you want to upload a 3D model compatible with ARKit and Scenekit in the 3D Library, follow the steps described here.
@@ -20,4 +22,6 @@ If the model contains texture files, a ZIP archive must be created, containing t
 
 # How to create an "Android Sceneform compatible" file
 
-COMING SOON...
+Follow the steps described here: [ARCore - Import and Preview 3D Assets](https://developers.google.com/ar/develop/java/sceneform/import-assets)
+
+By doing so, you will obtain a single `.sfb` file that you can then upload on V-Director.
