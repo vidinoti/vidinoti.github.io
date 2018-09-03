@@ -2,7 +2,7 @@
 layout: documentation
 title: Standalone content
 category: V-director
-order: 2
+order: 4
 ---
 
 The contents can have two different modes of synchronization; the **default** mode and the **standalone** mode. These modes define how the contents are synchronized and used by the application.
