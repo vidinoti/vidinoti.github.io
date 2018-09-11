@@ -6,9 +6,36 @@ order: 5
 permalink: /documentation/asset3d
 ---
 
-This page describes how to create 3D models for Android and iOS. The steps described here will be automated in the V-Director platform soon.
+Vidinoti is introducing a new feature which is the visualization of 3D objects in augmented reality, in real size, without any image trigger.
 
-# How to create a "Apple Scenekit compatible" file
+# V-3Display
+
+For that, we have published a new mobile application **V-3Display** that you can download on the AppStore or Google Play Store.
+
+![V-3Display logo]({{ site.url }}/img/v-3display.png)
+
+[![Download V-3Display on the App Store]({{ site.url }}/img/store/download_app_store.svg)](https://itunes.apple.com/us/app/v-3display/id1435607299?l=fr&ls=1&mt=8)
+[![Download V-3Display on the Google Play Store]({{ site.url }}/img/store/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.vidinoti.v3display)
+
+The application uses the latest AR capabilities provided by Apple and Google called ARKit and ARCore. Thus, you need a compatible phone (see section below).
+
+
+The application showcases a few examples of 3D models that you can try out. The application also allows you to display your own 3D objects! For that, connect to V-Director and create your own 3D assets (see section below about 3D format conversion).
+Once you have uploaded your own 3D models, open the Dashboard page and scan your personal QR code with the application.
+The application will then show up your own objects that you can place anywhere you want!
+
+Have fun! Don’t hesitate to give us your feedback about this new feature. It will get improved over time!
+
+# Device compatibility
+
+* Apple: [iOS Device Compatibility Reference](https://developer.apple.com/library/archive/documentation/DeviceInformation/Reference/iOSDeviceCompatibility/DeviceCompatibilityMatrix/DeviceCompatibilityMatrix.html)
+* Google: [ARCore Supported Devices](https://developers.google.com/ar/discover/supported-devices)
+
+# 3D model conversion
+
+This section describes how to create 3D models for Android and iOS. The steps described here will be automated in the V-Director platform soon.
+
+## How to create a "Apple Scenekit compatible" file
 
 If you want to upload a 3D model compatible with ARKit and Scenekit in the 3D Library, follow the steps described here.
 
@@ -20,7 +47,7 @@ To do so, select your dae file in the project navigator, Show the scene graph vi
 
 If the model contains texture files, a ZIP archive must be created, containing the SCN file itself, and a folder named "Resources" that contains the textures. The archive can then be uploaded on V-Director. If there is no external textures or the textures are embedded, the model can be directly uploaded on V-Director. 
 
-# How to create an "Android Sceneform compatible" file
+## How to create an "Android Sceneform compatible" file
 
 Follow the steps described here: [ARCore - Import and Preview 3D Assets](https://developers.google.com/ar/develop/java/sceneform/import-assets)
 
