@@ -44,7 +44,7 @@ Open the section "SDK" > "Downloads" and download the required SDK.
 
 **Android native:** Look at the simple demo application present in the SDK zip file.
 
-**iOS native:** Look at the simple demo application present in the SDK dmg file.
+**iOS native:** Look at the simple demo application present in the SDK dmg file. And look at the Swift documentation here: [Create an iOS app in Swift]({{ '/documentation/sdk/create-a-swift-app' | relative_url }})
 
 **Cordova:** Follow the instructions for using the cordova plugin: [https://github.com/vidinoti/cordova-plugin-PixLive](https://github.com/vidinoti/cordova-plugin-PixLive)
 
