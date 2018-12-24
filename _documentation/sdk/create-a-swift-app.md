@@ -7,6 +7,8 @@ order: 2
 
 This page gives you a few hints for integrating the Vidinoti SDK in a Swift application.
 
+See a working demo application: [https://github.com/vidinoti/swift-demo-app](https://github.com/vidinoti/swift-demo-app)
+
 # Requirement / getting started
 
 Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/create-an-app' | relative_url }}). In summary, do the following:
@@ -133,3 +135,4 @@ We will now add the AR scanner view.
 
 * Show a progress indicator if the application is synchronizing. The image recognition does not work when the synchronization process is in progress.
 * You will also need to add the key `NSLocationAlwaysAndWhenInUseUsageDescription` to your `Info.plist` file if your application may synchronize with GPS or beacon contents.
+* Explore the demo application: [https://github.com/vidinoti/swift-demo-app](https://github.com/vidinoti/swift-demo-app)
