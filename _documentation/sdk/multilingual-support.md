@@ -98,7 +98,7 @@ First you need to go in My Contents>Content list, then to assign a tag to conten
 
 Drag the image and drop it on the desired tag.  
 
-![Drag and drop]({{ site.url }}/img/Lang.png)
+![Drag and drop]({{ site.url }}/img/drag.png)
 
 ## Use tag management
 
