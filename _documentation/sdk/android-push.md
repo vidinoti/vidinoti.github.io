@@ -2,7 +2,7 @@
 layout: documentation
 title: Configure push notifications for Android
 category: Sdk
-order: 3
+order: 4
 ---
 
 # Introduction

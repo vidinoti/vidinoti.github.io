@@ -2,7 +2,7 @@
 layout: documentation
 title: Enable multilingual support
 category: Sdk
-order: 4
+order: 5
 ---
 
 # Introduction
