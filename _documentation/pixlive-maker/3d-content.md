@@ -19,12 +19,12 @@ As stated in the above link, the best supported format is Collada (**.dae**). We
 * Transparency
 * Ambiant
 * Specular color
+* Normal mapping (see [3D Engine – Improved rendering using normal mapping](https://www.vidinoti.com/2018/07/13/3d-engine-improved-rendering-using-normal-mapping/))
 * Cosine power
 
 #### Not supported
 
 * Incandescence
-* Texture as any other input than Color
 * Surface Shader
 
 ### Animation
