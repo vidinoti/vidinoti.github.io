@@ -12,6 +12,10 @@ order: 6
 
 # Android
 
+## Version 6.5.9 - 2019/03/21
+
+* Fix distorted 3D objects
+
 ## Version 6.5.8 - 2019/03/19
 
 * Fix 3D animation not starting
@@ -82,6 +86,10 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 6.5.9 - 2019/03/21
+
+* Fix distorted 3D objects
 
 ## Version 6.5.8 - 2019/03/19
 
