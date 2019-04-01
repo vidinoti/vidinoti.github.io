@@ -30,6 +30,6 @@ In your AR content, add a "Webpage" annotation and enter the following special t
 ## Open a link in the system web browser
 
 Instead of opening a web link in the application, it is also possible to open a web link in the default system browser (Safari on iOS and usually Chrome in Android)
-In your AR content, add a "Webpage" annotation and enter the following special text: `externalhttp:<your phone number>`
+In your AR content, add a "Webpage" annotation and enter the following special text: `externalhttp:<website address>`
 
 ![External phone call]({{ site.url }}/img/editor/external-web-browser.png))
