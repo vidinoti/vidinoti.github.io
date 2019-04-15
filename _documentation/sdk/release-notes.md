@@ -12,6 +12,10 @@ order: 6
 
 # Android
 
+## Version 6.5.10 - 2019/04/04
+
+* Add video loop support
+
 ## Version 6.5.9 - 2019/03/21
 
 * Fix distorted 3D objects
@@ -86,6 +90,11 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 6.5.10 - 2019/04/04
+
+* Add video loop support
+* Hide "Content" title in top bar of default AR view controller
 
 ## Version 6.5.9 - 2019/03/21
 
