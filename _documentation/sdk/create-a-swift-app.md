@@ -48,6 +48,7 @@ Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/cr
     - QuartzCore.framework
     - Security.framework
     - Social.framework
+    - UserNotifications.framework
 
     ![Required frameworks]({{ site.url }}/img/ios/ios_frameworks.png)
 
