@@ -12,6 +12,10 @@ order: 6
 
 # Android
 
+## Version 6.5.11 - 2019/04/23
+
+* Add synchronization mechanism using content creator email.
+
 ## Version 6.5.10 - 2019/04/04
 
 * Add video loop support
@@ -90,6 +94,11 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 6.5.11 - 2019/04/23
+
+* Fix deprecated push mechanism. It requires adding `UserNotifications.framework` to your linked frameworks.
+* Add synchronization mechanism using content creator email.
 
 ## Version 6.5.10 - 2019/04/04
 
