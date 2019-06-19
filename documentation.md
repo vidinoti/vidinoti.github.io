@@ -10,7 +10,17 @@ This documentation is the place to find everything you need to know about Vidino
 
 If you can't find what you are looking for or documentation is missing, please do not hesitate to find us through the options on the [support]({{ "/support" | relative_url }}) page and request it.
 
-## Other documentation resources
+### Newcomer?
+
+Connect to [V-Director](https://armanager.vidinoti.com) and create a new account. You will be guided for creating your first content!
+
+### You want to create your own app?
+
+Checkout the SDK section!
+
+### Looking for more documentation?
+
+This website does not contain all available documentation. Checkout some other resources below.
 
 * [V-Director - documentation page](https://armanager.vidinoti.com/?page=arsdk_doc) iOS and Android specific doc
 * [Cordova Plugin Pixlive](http://vidinoti.github.io/cordova-plugin-PixLive/)

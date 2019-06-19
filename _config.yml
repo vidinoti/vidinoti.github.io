@@ -62,7 +62,6 @@ collections:
     permalink: /:collection/:path
 
 category_order:
-  - 'Getting-started'
   - 'V-director'
   - 'Sdk'
   - 'API'
