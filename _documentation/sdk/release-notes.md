@@ -12,6 +12,12 @@ order: 6
 
 # Android
 
+## Version 6.5.12 - 2019/07/01
+
+* Fix problem with scratch contents when building application with Android target API 28.
+* Allow enabling contents by tag without requiring a new synchronization.
+* Fix ratio of "screen relative annotations" (e.g. fullscreen contents and close button).
+
 ## Version 6.5.11 - 2019/04/23
 
 * Add synchronization mechanism using content creator email.
@@ -94,6 +100,11 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 6.5.12 - 2019/07/01
+
+* Allow enabling contents by tag without requiring a new synchronization.
+* Fix ratio of "screen relative annotations" (e.g. fullscreen contents and close button).
 
 ## Version 6.5.11 - 2019/04/23
 
