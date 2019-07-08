@@ -101,6 +101,10 @@ buildTypes {
 
 # iOS
 
+## Version 6.5.13 - 2019/07/08
+
+* Fix memory leak
+
 ## Version 6.5.12 - 2019/07/01
 
 * Allow enabling contents by tag without requiring a new synchronization.
