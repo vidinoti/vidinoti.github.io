@@ -42,7 +42,7 @@ Open the section "SDK" > "Downloads" and download the required SDK.
 
 ## 5) Integrate the SDK in your application
 
-**Android native:** Look at the simple demo application present in the SDK zip file.
+**Android native:** Look at the simple demo application present in the SDK zip file and follow the guide here: [Create an Android app]({{ '/documentation/sdk/create-android-app' | relative_url }})
 
 **iOS native:** Look at the simple demo application present in the SDK dmg file. And look at the Swift documentation here: [Create an iOS app in Swift]({{ '/documentation/sdk/create-a-swift-app' | relative_url }})
 
