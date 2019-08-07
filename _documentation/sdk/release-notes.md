@@ -101,6 +101,11 @@ buildTypes {
 
 # iOS
 
+## Version 6.5.14 - 2019/08/07
+
+* Add method for changing the license key once the SDK has already been initialized
+* Add method for forcing the interface language
+
 ## Version 6.5.13 - 2019/07/08
 
 * Fix memory leak
