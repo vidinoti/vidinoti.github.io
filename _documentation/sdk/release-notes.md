@@ -12,6 +12,11 @@ order: 6
 
 # Android
 
+## Version 6.5.14 - 2019/08/07
+
+* Add method for changing the license key once the SDK has already been initialized
+* Add method for forcing the interface language
+
 ## Version 6.5.12 - 2019/07/01
 
 * Fix problem with scratch contents when building application with Android target API 28.
