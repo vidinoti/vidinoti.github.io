@@ -12,6 +12,12 @@ order: 6
 
 # Android
 
+## Version 6.5.15 - 2019/09/09
+
+* Replace rendering mechanism for HTML annotation (scratches) and improve its rendering quality.
+
+Known issue with Sony Xperia Z running Android 5.1.1: The device may freeze when scanning a scratch.
+
 ## Version 6.5.14 - 2019/08/07
 
 * Add method for changing the license key once the SDK has already been initialized
