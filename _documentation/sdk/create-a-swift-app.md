@@ -117,7 +117,7 @@ The synchronization should usually be done when the application starts. For exam
 You must avoid doing several synchronization at the same time.
 If you don't want to retrieve all the contents of your V-Director account, you can use tags for organizing your contents. You can then sychronize only with some tags like shown below.
 
-        let priors: [Any] = [VDARTagPrior(tagName: "MyTag")]
+        let priors: [VDARPrior] = [VDARTagPrior(tagName: "MyTag")]
         VDARRemoteController.sharedInstance()?.syncRemoteModelsAsynchronously(withPriors: priors, withCompletionBlock: {
 
 Multilingual contents also work with special tags. If you want to retrieve only the content of a given language, you must synchronize with the tag "lang_LanguageCode>". For instance, if you want to synchronize with the contents in French, use the tag `lang_fr`.
