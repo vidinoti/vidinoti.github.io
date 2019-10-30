@@ -112,6 +112,10 @@ buildTypes {
 
 # iOS
 
+## Version 6.5.15 - 2019/10/30
+
+* Adapt SDK for iOS 13 and Xcode 11: avoid opening fullscreen views in modal mode
+
 ## Version 6.5.14 - 2019/08/07
 
 * Add method for changing the license key once the SDK has already been initialized
