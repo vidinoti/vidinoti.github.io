@@ -12,6 +12,14 @@ order: 6
 
 # Android
 
+## Version 6.5.17 - 2019/11/04
+
+* Fix 3D transparency problem with some 3D models
+
+## Version 6.5.16 - 2019/10/11
+
+* Fix video not being displayed when opening without using the standard scanner
+
 ## Version 6.5.15 - 2019/09/09
 
 * Replace rendering mechanism for HTML annotation (scratches) and improve its rendering quality.
@@ -111,6 +119,14 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 6.5.18 - 2019/11/08
+
+* Fix wrong synchronization progress percentage
+
+## Version 6.5.17 - 2019/11/04
+
+* Fix 3D transparency problem with some 3D models
 
 ## Version 6.5.15 - 2019/10/30
 
