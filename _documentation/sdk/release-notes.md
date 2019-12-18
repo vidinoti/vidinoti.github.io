@@ -12,6 +12,15 @@ order: 6
 
 # Android
 
+## Version 7.0.0 - 2019/12/18
+
+* Add ARCore support. Allows placing 3D objects on an horizontal plane (floor, table, etc.).
+
+For supporting ARCore, you must include the ARCore dependency to your app. Add the dependency `com.google.ar:core:1.13.0` to your `build.gradle` file.
+
+This feature requires a supported devices. See [Google ARCore supported devices](https://developers.google.com/ar/discover/supported-devices).
+If the device is not supported, the 3D model will be displayed in a viewer rather than in AR.
+
 ## Version 6.5.17 - 2019/11/04
 
 * Fix 3D transparency problem with some 3D models
@@ -119,6 +128,22 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 7.0.0 - 2019/12/18
+
+* Add ARKit support. Allows placing 3D objects on an horizontal plane (floor, table, etc.).
+
+Starting with release 7.0.0, you must also include link the following frameworks with your application:
+
+```
+- ARKit
+- Metal
+- MetalKit
+- WebKit
+```
+
+The ARKit feature requires a supported devices running iOS 11 or above.
+If the device is not supported, the 3D model will be displayed in a viewer rather than in AR.
 
 ## Version 6.5.18 - 2019/11/08
 
