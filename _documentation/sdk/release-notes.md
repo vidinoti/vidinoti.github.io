@@ -12,6 +12,10 @@ order: 6
 
 # Android
 
+## Version 7.0.1 - 2020/01/17
+
+* ARCore 3D-player: increase camera far plane
+
 ## Version 7.0.0 - 2019/12/18
 
 * Add ARCore support. Allows placing 3D objects on an horizontal plane (floor, table, etc.).
@@ -128,6 +132,14 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 7.0.1 - 2020/01/17
+
+* iOS: fix flickering when device has "flat" orientation
+* ARKit 3D-player: increase camera far plane
+* ARKit 3D-player: allow media playback without user interaction
+* ARKit 3D-player: avoid screen dim
+* ARKit 3D-player: fix issue when switching between cameras
 
 ## Version 7.0.0 - 2019/12/18
 
