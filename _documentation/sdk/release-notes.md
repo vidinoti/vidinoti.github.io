@@ -133,6 +133,11 @@ buildTypes {
 
 # iOS
 
+## Version 7.0.2 - 2020/03/04
+
+* Fix floating-point error for GPS points distance computation
+* Allow inline playback of video in ARKit mode
+
 ## Version 7.0.1 - 2020/01/17
 
 * iOS: fix flickering when device has "flat" orientation
