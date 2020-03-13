@@ -133,6 +133,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.0.3 - 2020/03/13
+
+* Fix memory leak
+
 ## Version 7.0.2 - 2020/03/04
 
 * Fix floating-point error for GPS points distance computation
