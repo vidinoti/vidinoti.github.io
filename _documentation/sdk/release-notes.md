@@ -12,6 +12,10 @@ order: 6
 
 # Android
 
+## Version 7.1.0 - 2020/04/02
+
+* Add support for starting GPS tracking with GPS point detection
+
 ## Version 7.0.1 - 2020/01/17
 
 * ARCore 3D-player: increase camera far plane
@@ -132,6 +136,10 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 7.1.0 - 2020/04/02
+
+* Add support for starting GPS tracking with GPS point detection
 
 ## Version 7.0.3 - 2020/03/13
 
