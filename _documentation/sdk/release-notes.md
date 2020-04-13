@@ -137,6 +137,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.2.0 - 2020/04/13
+
+* Migrate deprecated iOS SDK UIWebView to WkWebView
+
 ## Version 7.1.0 - 2020/04/02
 
 * Add support for starting GPS tracking with GPS point detection
