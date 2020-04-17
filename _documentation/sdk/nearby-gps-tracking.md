@@ -51,7 +51,7 @@ startNearbyGPSDetection(long minGPSIntervalMS, float minGPSDistance, int detecti
 
 ## Reset the visited points list
 
-It is possible to reset the visited points list. After that every point already visited will be considered new again and will send a notification.
+It is possible to reset the visited points list. After that every point already visited will be considered new again and will send a notification if they are enabled.
 
 ```
 import com.vidinoti.android.vdarsdk.geopoint.GeoPointManager;
