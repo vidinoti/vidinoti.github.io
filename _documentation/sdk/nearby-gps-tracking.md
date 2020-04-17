@@ -44,10 +44,10 @@ The SDK provides a way to start the nearby GPS tracking with custom parameters:
 startNearbyGPSDetection(long minGPSIntervalMS, float minGPSDistance, int detectionInterval, float maxDetectionRadius)
 ```
 
-* where minGPSIntervalMS is the minimal time interval before a new user position is fetched
-* where minGPSDistance is the minimal distance the user has to move before it is considered as a new position
-* where detectionInterval is after how long a gps point is reconsidered as new
-* where maxDetectionRadius is the maximal detection radius
+- where minGPSIntervalMS is the minimal time interval before a new user position is fetched
+- where minGPSDistance is the minimal distance the user has to move before it is considered as a new position
+- where detectionInterval is after how long a gps point is reconsidered as new
+- where maxDetectionRadius is the maximal detection radius
 
 ## Reset the visited points list
 
@@ -61,3 +61,29 @@ import com.vidinoti.android.vdarsdk.geopoint.GeoPointManager;
 GeoPointManager.resetNewNearbyGPSPoints();
 ```
 
+## Register listener
+
+if you want to access the new GPS points received by the SDK you can register a VDARNearbyGPSManagerEventReceiver. To do so you need a class that implements VDARNearbyGPSManagerEventReceiver and to register the event receiver.
+
+```
+public class ScanFragment extends Fragment implements VDARNearbyGPSManagerEventReceiver {
+
+...
+
+@Override
+public void onResume() {
+    ...
+    VDARSDKController.getInstance().getNearbyGPSManager().registerEventReceiver(this);
+}
+
+@Override
+public void onPause() {
+    ...
+    VDARSDKController.getInstance().getNearbyGPSManager().unregisterEventReceiver(this);
+}
+
+@Override
+public void onNewNearbyGPSPoints(List<VDARGPSPoint> newNearbyGPSPoints, float longitude, float latitude) {
+    // You have now access to a list of newNearbyPoints and the longitude/latitude of the user
+}
+```
