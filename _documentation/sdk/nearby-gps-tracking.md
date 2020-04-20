@@ -9,6 +9,8 @@ order: 7
 
 This page describes how to setup the SDK to send a notification when a user enters a new GPS point even when the application is in the background. Notifications are sent only the first time the user enters the GPS point.
 
+The documentation is first presented for the Android platform, we show then the iOS equivalent.
+
 # Nearby GPS Tracking
 
 The nearby GPS Tracking is a foreground service showing notifications when the user enters a new GPS point. Since it is a foreground service it will continue to run when the application is in the brackground. To start the GPS tracking call:
@@ -86,4 +88,25 @@ public void onPause() {
 public void onNewNearbyGPSPoints(List<VDARGPSPoint> newNearbyGPSPoints, float longitude, float latitude) {
     // You have now access to a list of newNearbyPoints and the longitude/latitude of the user
 }
+```
+
+# iOS
+
+The GPS detection and notification mechanism is presented above. We list here the involved methods for iOS.
+
+```
+// Start/Stop the detection of nearby GPS points
+[[VDARSDKController sharedInstance] startNearbyGPSDetection];
+[[VDARSDKController sharedInstance] startNearbyGPSDetectionWithMinDistance:(double) detectionInterval:(long) maxDetectionRadius:(float)];
+[[VDARSDKController sharedInstance] stopNearbyGPSDetection];
+
+// Enable/disable the local notifications when the user enters a new GPS area
+[[VDARSDKController sharedInstance] startGPSNotifications];
+[[VDARSDKController sharedInstance] stopGPSNotifications];
+// You must call the following method from you AppDelegate to correctly handle the opening of the local notifications
+[[VDARSDKController sharedInstance] enableGPSNotifications];
+
+// Register a delegate of type VDARNearbyGPSControllerDelegate to receive the GPS detections
+[VDARNearbyGPSController sharedInstance].delegate = self;
+
 ```
