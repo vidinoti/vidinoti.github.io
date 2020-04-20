@@ -7,8 +7,31 @@ order: 6
 
 # Release notes
 
+* [Supported devices](#supported-devices)
 * [Android SDK](#android)
 * [iOS SDK](#ios)
+
+# Supported devices
+
+## Android SDK
+
+The latest Android SDK requires **Android 5** or above.
+
+For ARCore-specific features (e.g. *3D on floor*), only compatible devices are supported. These devices are listed there: [https://developers.google.com/ar/discover/supported-devices]()
+
+## iOS SDK
+
+The latest iOS SDK requires **iOS 10** or above. This correponds to the following devices:
+- iPhone 5S and beyond
+- iPod 6th generation and beyond
+- iPad Air and beyond
+- iPad Mini 2 and beyond
+
+For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit. This includes:
+- iPhone SE, iPhone 6S, iPhone 6S Plus and beyond
+- iPad 5th Generation and beyond
+- iPad Mini 5th Generation (2019) and over
+
 
 # Android
 
