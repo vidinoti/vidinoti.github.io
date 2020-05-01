@@ -160,6 +160,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.2.1 - 2020/05/01
+
+* Improve plane detection for "3D on floor" feature
+
 ## Version 7.2.0 - 2020/04/13
 
 * Migrate deprecated iOS SDK UIWebView to WkWebView
