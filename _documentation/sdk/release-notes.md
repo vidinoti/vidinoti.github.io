@@ -15,7 +15,7 @@ order: 6
 
 ## Android SDK
 
-The latest Android SDK requires **Android 5** or above.
+The latest Android SDK requires **Android 5** (API 21) or above.
 
 For ARCore-specific features (e.g. *3D on floor*), only compatible devices are supported. These devices are listed there: [https://developers.google.com/ar/discover/supported-devices]()
 
@@ -34,6 +34,11 @@ For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit.
 
 
 # Android
+
+## Version 7.2.1 - 2020/06/12
+
+* Fix audio keep playing on web page close
+* Hide next/previous button if not active for web pages
 
 ## Version 7.1.0 - 2020/04/02
 
