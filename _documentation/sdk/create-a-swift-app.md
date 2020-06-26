@@ -44,11 +44,14 @@ Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/cr
     - libz.dylib
     - MediaPlayer.framework
     - MessageUI.framework
+    - Metal.framework
+    - MetalKit.framework
     - OpenGLES.framework
     - QuartzCore.framework
     - Security.framework
     - Social.framework
     - UserNotifications.framework
+    - WebKit.framework
 
     ![Required frameworks]({{ site.url }}/img/ios/ios_frameworks.png)
 
