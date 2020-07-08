@@ -165,6 +165,12 @@ buildTypes {
 
 # iOS
 
+## Version 7.2.2 - 2020/07/08
+
+* Web page: follow links that should open in a new tab.
+* Add "deviceorientation" support to web view.
+* Fix memory issue with iOS 13 and ARKit.
+
 ## Version 7.2.1 - 2020/05/01
 
 * Improve plane detection for "3D on floor" feature
