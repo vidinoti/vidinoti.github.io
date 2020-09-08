@@ -165,6 +165,12 @@ buildTypes {
 
 # iOS
 
+## Version 7.2.3 - 2020/09/08
+
+* Uniformize close button layout: use standard iOS navigation bar with "Done" button
+* Fix layout for devices with notch and "home swipe button"
+* Close fullscreen video at the end of the file
+
 ## Version 7.2.2 - 2020/07/08
 
 * Web page: follow links that should open in a new tab.
