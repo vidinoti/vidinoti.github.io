@@ -165,6 +165,11 @@ buildTypes {
 
 # iOS
 
+## Version 7.2.4 - 2020/10/23
+
+* Expose VDARNearbyGPSController
+* Advanced AR content: add support for ARKit image detection
+
 ## Version 7.2.3 - 2020/09/08
 
 * Uniformize close button layout: use standard iOS navigation bar with "Done" button
