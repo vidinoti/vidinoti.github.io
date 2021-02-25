@@ -15,7 +15,7 @@ order: 6
 
 ## Android SDK
 
-The latest Android SDK requires **Android 5** (API 21) or above.
+The latest Android SDK requires **Android 5.1** (API 22) or above.
 
 For ARCore-specific features (e.g. *3D on floor*), only compatible devices are supported. These devices are listed there: [https://developers.google.com/ar/discover/supported-devices]()
 
