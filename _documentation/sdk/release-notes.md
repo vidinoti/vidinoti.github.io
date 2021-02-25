@@ -35,6 +35,30 @@ For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit.
 
 # Android
 
+## Version 7.2.7 - 2021/02/22
+
+* "3D on floor": add ARCore continuous plane detection for new placement method
+
+## Version 7.2.6 - 2021/01/29
+
+* Add `VDARSDKController#setPauseVisionRecognition` for temporarily disabling image and code recognition
+
+## Version 7.2.5 - 2020/11/30
+
+* Fix placement problem with "3D on floor"
+
+## Version 7.2.4 - 2020/11/12
+
+* Advanced AR content: add support for ARCore image detection
+
+## Version 7.2.3 - 2020/09/09
+
+* Remove grey top bar for some content types and replace by standard Android back button
+
+## Version 7.2.2 - 2020/08/31
+
+* Allow to stop AR session and close view from ARCore content
+
 ## Version 7.2.1 - 2020/06/12
 
 * Fix audio keep playing on web page close
@@ -164,6 +188,21 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 7.2.7 - 2021/02/22
+
+* "3D on floor": add ARKit continuous plane detection for new placement method
+* expose `openURLInInternalBrowser` with extra parameters in `VDARSDKController`
+
+## Version 7.2.6 - 2021/02/02
+
+* Fix potential concurrency issue in ARKit image detection
+
+## Version 7.2.5 - 2021/01/19
+
+* Add support for ARKit World Map via advanced contents
+* Fix memory leak in ARKit image detection
+* Add `pauseVisionRecognition` in `VDARSDKController` for temporarily disabling image and code recognition
 
 ## Version 7.2.4 - 2020/10/23
 
