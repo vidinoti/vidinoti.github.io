@@ -189,6 +189,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.2.8 - 2021/03/17
+
+* Fix potential issue with iframes in SDK's web view.
+
 ## Version 7.2.7 - 2021/02/22
 
 * "3D on floor": add ARKit continuous plane detection for new placement method
