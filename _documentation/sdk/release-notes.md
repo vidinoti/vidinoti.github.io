@@ -35,6 +35,11 @@ For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit.
 
 # Android
 
+## Version 7.2.9 - 2021/03/31
+
+* Add stop method to Context for stopping and closing current context
+* Audiosync player: player automatically loops
+
 ## Version 7.2.7 - 2021/02/22
 
 * "3D on floor": add ARCore continuous plane detection for new placement method
@@ -188,6 +193,11 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 7.2.9 - 2021/03/31
+
+* Add stop method to Context for stopping and closing current context
+* Audiosync player: player automatically loops
 
 ## Version 7.2.8 - 2021/03/17
 
