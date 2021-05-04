@@ -35,6 +35,10 @@ For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit.
 
 # Android
 
+## Version 7.2.10 - 2021/04/21
+
+* Allow to dispatch custom event to app from SDK webview
+
 ## Version 7.2.9 - 2021/03/31
 
 * Add stop method to Context for stopping and closing current context
@@ -194,6 +198,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.2.10 - 2021/05/04
+
+* add `openFileURLInInternalBrowser` for opening internal files with SDK web view
+
 ## Version 7.2.9 - 2021/03/31
 
 * Add stop method to Context for stopping and closing current context
@@ -207,6 +215,7 @@ buildTypes {
 
 * "3D on floor": add ARKit continuous plane detection for new placement method
 * expose `openURLInInternalBrowser` with extra parameters in `VDARSDKController`
+* Allow to dispatch custom event to app from SDK webview
 
 ## Version 7.2.6 - 2021/02/02
 
