@@ -22,18 +22,23 @@ For ARCore-specific features (e.g. *3D on floor*), only compatible devices are s
 ## iOS SDK
 
 The latest iOS SDK requires **iOS 10** or above. This correponds to the following devices:
-- iPhone 5S and beyond
-- iPod 6th generation and beyond
-- iPad Air and beyond
-- iPad Mini 2 and beyond
+
+* iPhone 5S and beyond
+* iPod 6th generation and beyond
+* iPad Air and beyond
+* iPad Mini 2 and beyond
 
 For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit. This includes:
-- iPhone SE, iPhone 6S, iPhone 6S Plus and beyond
-- iPad 5th Generation and beyond
-- iPad Mini 5th Generation (2019) and over
 
+* iPhone SE, iPhone 6S, iPhone 6S Plus and beyond
+* iPad 5th Generation and beyond
+* iPad Mini 5th Generation (2019) and over
 
 # Android
+
+## Version 7.2.11 - 2021/05/12
+
+* Add close button when navigating within SDK web view.
 
 ## Version 7.2.10 - 2021/04/21
 
