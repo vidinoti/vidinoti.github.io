@@ -27,6 +27,7 @@ Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/cr
 4. Add below required frameworks.
 
     - Accelerate.framework
+    - ARKit
     - AudioToolbox.framework
     - AVFoundation.framework
     - AVKit.framework
