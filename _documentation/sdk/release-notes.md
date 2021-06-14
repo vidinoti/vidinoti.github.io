@@ -36,6 +36,10 @@ For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit.
 
 # Android
 
+## Version 7.2.12 - 2021/06/14
+
+* Small fixes
+
 ## Version 7.2.11 - 2021/05/12
 
 * Add close button when navigating within SDK web view.
@@ -202,6 +206,10 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 7.2.12 - 2021/06/14
+
+* Small fixes
 
 ## Version 7.2.10 - 2021/05/04
 
