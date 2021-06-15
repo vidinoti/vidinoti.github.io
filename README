@@ -1,6 +1,6 @@
 # Install deps
 
-bundle install --path vendor/bundle
+bundle install
 
 # Serve
 

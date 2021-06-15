@@ -9,6 +9,7 @@ order: 6
 
 * [Supported devices](#supported-devices)
 * [Android SDK](#android)
+* [Third-Party Licenses](#third-party-licenses)
 * [iOS SDK](#ios)
 
 # Supported devices
@@ -33,6 +34,12 @@ For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit.
 * iPhone SE, iPhone 6S, iPhone 6S Plus and beyond
 * iPad 5th Generation and beyond
 * iPad Mini 5th Generation (2019) and over
+
+# Third-Party Licenses
+
+The Vidinoti SDK includes 3rd-party softwares released under open source license.
+
+For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
