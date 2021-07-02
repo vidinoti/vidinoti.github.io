@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.3.0 - 2021/07/02
+
+* Allow to change fullscreent content background color
+
 ## Version 7.2.12 - 2021/06/14
 
 * Small fixes
@@ -213,6 +217,10 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 7.3.0 - 2021/07/02
+
+* Allow to change fullscreent content background color
 
 ## Version 7.2.12 - 2021/06/14
 
