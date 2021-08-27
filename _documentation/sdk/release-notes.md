@@ -43,7 +43,7 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
-## Version 7.3.1 - 2021/08/16
+## Version 7.3.1 - 2021/08/16
 
 * ARCore unsupported device webview: allow page redirection without user interaction
 
