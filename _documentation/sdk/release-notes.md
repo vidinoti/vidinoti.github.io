@@ -29,7 +29,7 @@ The latest iOS SDK requires **iOS 10** or above. This correponds to the followin
 * iPad Air and beyond
 * iPad Mini 2 and beyond
 
-For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit. This includes:
+For ARKit-specific features (e.g. *3D on floor*), the device must support ARKit. It requires at least iOS 11 and the supported devices include:
 
 * iPhone SE, iPhone 6S, iPhone 6S Plus and beyond
 * iPad 5th Generation and beyond
