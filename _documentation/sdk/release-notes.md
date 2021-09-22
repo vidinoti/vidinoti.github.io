@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.3.2 - 2021/09/22
+
+* Fix for Android API 31 - specify explicit value for `android:exported` for all components with an intent filter defined.
+
 ## Version 7.3.1 - 2021/08/16
 
 * ARCore unsupported device webview: allow page redirection without user interaction
