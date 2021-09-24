@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.3.3 - 2021/09/24
+
+* Fix standalone "3D on floor" content when targeting API 30
+
 ## Version 7.3.2 - 2021/09/22
 
 * Fix for Android API 31 - specify explicit value for `android:exported` for all components with an intent filter defined.
