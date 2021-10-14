@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.3.4 - 2021/10/14
+
+* Allow to define a custom PDF viewer using VDARSDKController#setCustomPdfViewer
+
 ## Version 7.3.3 - 2021/09/24
 
 * Fix standalone "3D on floor" content when targeting API 30
