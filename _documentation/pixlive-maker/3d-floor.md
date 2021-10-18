@@ -77,3 +77,7 @@ As soon as a horizontal surface is detected, the 3D model is placed on the surfa
 <video height="360" muted controls="controls">
   <source src="{{ site.url }}/videos/3D_Placement_Legacy.mp4" type="video/mp4">
 </video>
+
+### Tutorial
+
+See [V-Director: from Sketchfab to "3D on floor"]({{ '/documentation/tutorial/sketchfab-to-3d-floor' | relative_url }}).
