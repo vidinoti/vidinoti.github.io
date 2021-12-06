@@ -234,9 +234,13 @@ buildTypes {
 
 # iOS
 
+## Version 7.3.1 - 2021/12/06
+
+* Fix navigation bar color of default AR view with iOS 15
+
 ## Version 7.3.0 - 2021/07/02
 
-* Allow to change fullscreent content background color
+* Allow to change fullscreen content background color
 
 ## Version 7.2.12 - 2021/06/14
 
