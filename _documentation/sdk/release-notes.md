@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.3.5 - 2021/12/22
+
+* Add support for Scene Viewer in SDK web view
+
 ## Version 7.3.4 - 2021/10/14
 
 * Allow to define a custom PDF viewer using VDARSDKController#setCustomPdfViewer
@@ -233,6 +237,10 @@ buildTypes {
 ```
 
 # iOS
+
+## Version 7.3.2 - 2021/12/22
+
+* Add support for USDZ files in SDK web view
 
 ## Version 7.3.1 - 2021/12/06
 
