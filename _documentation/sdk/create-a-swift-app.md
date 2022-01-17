@@ -49,6 +49,7 @@ Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/cr
     - MetalKit.framework
     - OpenGLES.framework
     - QuartzCore.framework
+    - QuickLook.framework
     - Security.framework
     - Social.framework
     - UserNotifications.framework
