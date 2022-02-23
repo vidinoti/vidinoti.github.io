@@ -9,7 +9,7 @@ This page gives you a few hints for integrating the Vidinoti SDK in a Swift appl
 
 See a working demo application: [https://github.com/vidinoti/swift-demo-app](https://github.com/vidinoti/swift-demo-app)
 
-# Requirement / getting started
+## Requirement / getting started
 
 Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/create-an-app' | relative_url }}). In summary, do the following:
 
@@ -19,7 +19,7 @@ Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/cr
 4. Open the section "SDK" > "My Applications".
 5. Create a new application with your application bundle ID. It is important that the registered bundle ID corresponds to your application otherwise the SDK won't be able to connect to the backend. If you use several bundle ID (e.g. for staging), add each of them as a new application.
 
-# Import SDK into Swift app
+## Import SDK into Swift app
 
 1. Copy `VDARSDK.framework` into your Xcode project.
 2. Open your project settings and select your app target in the "General" tab.
@@ -71,7 +71,7 @@ Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/cr
 
         #import <VDARSDK/VDARSDK.h>
 
-# Initialize the SDK
+## Initialize the SDK
 
 1. Open your AppDelegate and add the following into the `application(_:didFinishLaunchingWithOptions:)` method.
 
@@ -97,7 +97,7 @@ Follow the steps described in [Create an app - Basics]({{ '/documentation/sdk/cr
             VDARSDKController.sharedInstance()?.save()
         }
 
-# Synchronization
+## Synchronization
 
 The application needs to synchronize with V-Director for retrieving the contents to recognize. For synchronizing, see the following code
 
@@ -127,7 +127,7 @@ If you don't want to retrieve all the contents of your V-Director account, you c
 
 Multilingual contents also work with special tags. If you want to retrieve only the content of a given language, you must synchronize with the tag "lang_LanguageCode>". For instance, if you want to synchronize with the contents in French, use the tag `lang_fr`.
 
-# Add AR view
+## Add AR view
 
 We will now add the AR scanner view.
 
@@ -137,8 +137,28 @@ We will now add the AR scanner view.
 
 2. Modify your application such that your app contains a `UIViewController` that extends `VDARLiveAnnotationViewController`. The `VDARLiveAnnotationViewController` contains the camera view and handles the interaction with the AR contents.
 
-# Additional hints
+## Additional hints
 
 * Show a progress indicator if the application is synchronizing. The image recognition does not work when the synchronization process is in progress.
 * You will also need to add the key `NSLocationAlwaysAndWhenInUseUsageDescription` to your `Info.plist` file if your application may synchronize with GPS or beacon contents.
 * Explore the demo application: [https://github.com/vidinoti/swift-demo-app](https://github.com/vidinoti/swift-demo-app)
+
+## Having problems?
+
+Checkout this section for common issues and solutions.
+
+### `<VDARSDK/VDARSDK.h>` not found
+
+![VDARSDK.h not found]({{ site.url }}/img/ios/vdarsdk-not-found.png)
+
+If you encounter the above error, check the followings:
+
+- Did you properly add the `VDARSDK.framework` to the list of frameworks in your target.
+- Are you importing the framework in the bridging header?
+- Is the bridging header properly configued?
+
+  ![Bridging header]({{ site.url }}/img/ios/bridging-header.png)
+
+- Did you copy the file `VDARSDK.framework` into your project and the Framework search paths are properly configured?
+
+  ![Framework search paths]({{ site.url }}/img/ios/framework-search-paths.png)
