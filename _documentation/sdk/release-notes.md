@@ -238,6 +238,12 @@ buildTypes {
 
 # iOS
 
+## Version 7.4.0 - 2022/02/23
+
+* Distribute SDK as XCFramework. Allows to run simulator on M1 computers.
+* Expose appID and licenseKey for ARKit contents.
+* ARKit world map: add SDK custom headers when downloading world map.
+
 ## Version 7.3.2 - 2021/12/22
 
 * Add support for USDZ files in SDK web view
