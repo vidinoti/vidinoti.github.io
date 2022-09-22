@@ -238,6 +238,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.4.1 - 2022/09/22
+
+* Fix potential crash when running ARKit on iOS 16
+
 ## Version 7.4.0 - 2022/02/23
 
 * Distribute SDK as XCFramework. Allows to run simulator on M1 computers.
