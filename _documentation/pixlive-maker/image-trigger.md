@@ -13,13 +13,15 @@ In order to be recognizable, a target image has to have several charateristics. 
 Here are a few points on how to choose a good image trigger. Some of these points are then detailed below.
 
 * The image must be at least 480x480 pixels.
+* Maximize textured areas (see below).
+* Typically simple pictograms or flat icons are bad candidates for image detection.
 * The image must corresponds to a physical flat object (e.g. a picture, painting versus a bottle or sculpture).
 * Avoid reflective material like glass or metal.
 * The image must be rich in details.
 * The image must have a good contrast.
 * Avoid repetitive patterns in the image.
 * The system does not use colors, it works on grayscale images.
-* The system does not perform text recognition.
+* The system does not perform text recognition. Avoid detecting pages of text.
 * The system is based on "corner" detection. For instance, a serie of circles won't be detected because they have no corner.
 
 ## Maximize textured areas
