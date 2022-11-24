@@ -238,6 +238,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.5.0 - 2022/11/24
+
+* Add support for BTCXR files
+
 ## Version 7.4.1 - 2022/09/22
 
 * Fix potential crash when running ARKit on iOS 16
