@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.5.0 - 2023/01/18
+
+* Add Android API 33 support
+
 ## Version 7.3.5 - 2021/12/22
 
 * Add support for Scene Viewer in SDK web view
