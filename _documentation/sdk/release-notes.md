@@ -242,6 +242,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.5.1 - 2023/01/24
+
+* Fix camera orientation when starting the application in landscape mode
+
 ## Version 7.5.0 - 2022/11/24
 
 * Add support for BTCXR files
