@@ -242,6 +242,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.5.2 - 2023/08/14
+
+* Adapt BTCXRManager to pass the parent view controller
+
 ## Version 7.5.1 - 2023/01/24
 
 * Fix camera orientation when starting the application in landscape mode
