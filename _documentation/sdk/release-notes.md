@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.6.0 - 2024/08/15
+
+* Add Android API 35 support
+
 ## Version 7.5.1 - 2023/12/13
 
 * Add better support for standalone contents in ARCore mode
