@@ -250,6 +250,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.5.3 - 2025/05/06
+
+* Fix issue with web links being opened by the system browser (`externalhttps:`)
+
 ## Version 7.5.2 - 2023/08/14
 
 * Adapt BTCXRManager to pass the parent view controller
