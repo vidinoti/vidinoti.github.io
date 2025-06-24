@@ -250,6 +250,10 @@ buildTypes {
 
 # iOS
 
+## Version 7.6.1 - 2025/06/24
+
+* Add ability to change API endpoints
+
 ## Version 7.5.3 - 2025/05/06
 
 * Fix issue with web links being opened by the system browser (`externalhttps:`)
