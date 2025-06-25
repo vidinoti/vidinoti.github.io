@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.6.1 - 2025/06/25
+
+* Add ability to change API endpoints
+
 ## Version 7.6.0 - 2024/08/15
 
 * Add Android API 35 support
