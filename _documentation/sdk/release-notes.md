@@ -43,6 +43,10 @@ For details, see <https://static.vidinoti.com/sdk/SDK-3rdParty.txt>
 
 # Android
 
+## Version 7.6.3 - 2025/10/31
+
+* Bug fixes
+
 ## Version 7.6.2 - 2025/07/04
 
 * Update Android Pdf Viewer
